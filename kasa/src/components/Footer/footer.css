@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+.footer {
+    height: 20%;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 10%;
+    text-align: center;
+    position: fixed; /* Positionnement fixe */
+    bottom: 0; /* Placé en bas de la fenêtre du navigateur */
+    width: 100%; /* Occupe toute la largeur */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }

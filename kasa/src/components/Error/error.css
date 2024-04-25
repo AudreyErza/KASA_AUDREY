@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.errorContainer {
+  color: #ff6060;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  flex: 1; /* Le contenu prendra tout l'espace disponible dans le conteneur */
+}
+
+.errorContainer__Number {
+  font-size: 200px;
+  font-weight: 700;
+  text-align: center;
+  padding:5%;
+}
+
+.errorContainer__Text {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  padding:2%;
+}
+.errorContainer__Link {
+  color: #ff6060;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+  padding:2%;
+}
