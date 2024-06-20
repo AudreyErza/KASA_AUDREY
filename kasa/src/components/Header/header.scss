@@ -22,8 +22,10 @@
     text-decoration: none;
     padding: 10px;
 
-    &.active { 
+    &_active { 
       text-decoration: underline;
+      color: $primary-color;
+      padding: 10px;
     }
   }
   &_nav {
